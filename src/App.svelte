@@ -18,7 +18,7 @@
   // Customise the app by changing the following variables.
   const TITLE = "Afrobub";
   const DESCRTIPTION = "Afrobub Comic";
-  const HEADER_TITLE = "Afrobub";
+  const HEADER_TITLE = "Afrobub Comic drop";
   const HEADER_LINK = "https://www.afrobubble.io/";
   // Your image or GIF needs to be in the /public folder for this to work
   const IMAGE_LINK = "/amina.gif";
