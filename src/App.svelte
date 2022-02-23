@@ -16,12 +16,12 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Shapes";
-  const DESCRTIPTION = "A collection of shapes on the blockchain";
-  const HEADER_TITLE = "shapes.xyz";
-  const HEADER_LINK = "https://lanablocks.xyz";
+  const TITLE = "Afrobub";
+  const DESCRTIPTION = "Afrobub Comic";
+  const HEADER_TITLE = "Afrobub";
+  const HEADER_LINK = "https://www.afrobubble.io/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/example.gif";
+  const IMAGE_LINK = "/amina.gif";
   /***********************************/
 
   const { solana } = window as any;
@@ -132,7 +132,7 @@
     {/if}
     <!-- Card -->
     <div
-      class=" max-w-lg mx-auto bg-white rounded-lg my-12  border-2"
+      class=" max-w-lg mx-auto bg-green-450 rounded-lg my-12  border-2"
       transition:fade
     >
       <!-- Top Bar -->
@@ -141,18 +141,18 @@
       <br />
       <!-- Main Body -->
       <div class="p-6">
-        <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
+        <img src={IMAGE_LINK} alt="" class=" w-4/5 mx-auto m-6" />
         <div
-          class=" text-lg sm:text-2xl font-mono font-bold py-5 tracking-wider"
+          class=" text-lg sm:text-4xl font-mono font-extrabold py-5 text-white-800 tracking-wider"
         >
           {TITLE}
         </div>
-        <div class="text-sm sm:text-md font-semibold pb-5 text-gray-600 ">
+        <div class="text-sm sm:text-md font-semibold pb-5 text-white-600 ">
           {DESCRTIPTION}
         </div>
         <Button {solana} {connection} />
 
-        <div class=" tracking-widest font-bold text-sm pt-3 text-gray-400">
+        <div class=" tracking-widest font-bold text-sm pt-3 text-white-400">
           {itemsRedeemed}/{itemsAvailable} claimed
         </div>
         <div class="flex flex-col pt-3">
@@ -160,7 +160,7 @@
             <a
               href={$userState.solanaExplorerLink}
               target="_blank"
-              class="text-purple-700 font-semibold  p-1"
+              class="text-green-700 font-semibold  p-1"
               >View on Solana Explorer</a
             >
           {/if}
